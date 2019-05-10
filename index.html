@@ -27,8 +27,9 @@
         }
 
         .ad_box{
-            height: 250px;
-            width: 300px;
+            border: 1px solid black;
+            height: 248px;
+            width: 298px;
             cursor: pointer;
             overflow: hidden;
             position: relative;
@@ -41,38 +42,35 @@
 
         .sup_title{
             font-family: 'karnaphulimjbold';
-            font-size: 16px;
+            text-align: center;
+            font-size: 15px;
             color: white;
-            position: absolute;
-            top: 75px;
-            left: 20px;
+            margin-top: 70px;
         }
 
         .title{
             font-family: 'karnaphulimjbold';
-            font-size: 13px;
+            text-align: center;
+            font-size: 12px;
             letter-spacing: 2px;
             color: black;
-            position: absolute;
-            top: 110px;
-            left: 77px;
+            margin-top: 10px;
         }
 
         .counter{
             font-family: 'karnaphulimjbold';
             font-size: 28px;
+            text-align: center;
             font-weight: bold;
             color: black;
-            position: absolute;
-            top: 135px;
-            left: 90px;
+            margin-top: 5px;
         }
 
         .notice{
             position: absolute;
             bottom: 5px;
             right: 5px;
-            font-size: 7px;
+            font-size: 9px;
             font-family: 'karnaphulimjbold';
             color: white;
         }
@@ -124,7 +122,6 @@
         }
         else {
             checkIftarTime(curDate, curTime);
-            title.style.left = 70 + "px";
         }
     },1000)
 
