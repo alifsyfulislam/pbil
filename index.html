@@ -8,14 +8,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>PIBL</title>
     <link rel="icon" href="images/primebank.png" type="image/png" sizes="30x30">
-    <link href="https://fonts.maateen.me/mukti/font.css" rel="stylesheet">
-
-
-    <style>
-        @import url('https://fonts.maateen.me/mukti/font.css');
-    </style>
-
-
     <style>
         @font-face {
             font-family: 'abirvabhimellight';
@@ -72,16 +64,17 @@
             text-align: center;
             font-size: 16px;
             color: black;
-            margin-top: 10px;
+            margin-top: 15px;
         }
 
         .counter{
             font-family: 'abirvabhimellight';
-            font-size: 34px;
+            font-size: 45px;
+            letter-spacing: 2px;
             text-align: center;
             font-weight: bold;
             color: black;
-            margin-top: 5px;
+            margin-top: 0px;
         }
 
         /*.notice{*/
@@ -144,14 +137,6 @@
         if (timeSehri<curTime && timeSehri>=0) {
             checkIftarTime(curDate, curTime);
         }
-
-
-        // if (curTime<timeSehri || curTime==0){
-        //     checkSehriTime(curDate, curTime);
-        // }
-        // else {
-        //     checkIftarTime(curDate, curTime);
-        // }
     },1000)
 
     function checkIftarTime(todayDate, curTime) {
