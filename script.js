@@ -48,7 +48,7 @@
         var setTime = time[0]*60*60 + time[1]*60;
         var diffTime = setTime - curTime;
         if (diffTime<setTime && diffTime>=0){
-            title.innerHTML = " ??????? ??? ???? ";
+            title.innerHTML = " ইফতারের সময় বাকি ";
             counter.innerHTML = printTimer(diffTime);
         }
     }
@@ -59,13 +59,13 @@
         var diffTime = setTime - curTime;
 
         if (diffTime<setTime && diffTime>=0){
-            title.innerHTML = " ??????? ??? ???? ";
+            title.innerHTML = " সেহেরীর সময় বাকি ";
             counter.innerHTML = printTimer(diffTime);
         }
         else {
             var lastTime = setTime+24*60*60;
             var sehriEnd = lastTime - curTime;
-            title.innerHTML = " ??????? ??? ???? ";
+            title.innerHTML = " সেহেরীর সময় বাকি ";
             counter.innerHTML = printTimer(sehriEnd);
         }
     }
